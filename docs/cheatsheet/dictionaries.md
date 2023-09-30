@@ -267,3 +267,13 @@ For Python 3.5+:
 >>> dict_c
 # {'a': 1, 'b': 3, 'c': 4}
 ```
+
+### Merge two dictionaries using update() method
+
+```python
+>>> dict_a = {'a': 1, 'b': 2}
+>>> dict_b = {'b': 3, 'c': 4}
+>>> dict_a.update(dict_b)
+>>> dict_a
+# {'a': 1, 'b': 3, 'c': 4}
+```
